@@ -7,6 +7,7 @@ This project is an implementation of the paper "XAI-ResUNet: Analysing the Impac
 The dataset used for this paper, MSSEG-2016, can be downloaded from https://shanoir.irisa.fr/shanoir-ng/welcome.
 
 ## Proposed Architecture
+![architecture](https://github.com/user-attachments/assets/ea78317a-b17d-4930-93ed-3e2dcd60c082)
 
 ## Results
 Qualitative results so far: <br>
