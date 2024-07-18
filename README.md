@@ -23,6 +23,7 @@ Sample qualitative results including EigenGradCAM localization heatmaps overlaid
 
 ```
 conda create -n “xai-resunet-env” python=3.10.12
+pip install torchvision==0.15.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
 
