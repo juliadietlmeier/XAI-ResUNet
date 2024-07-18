@@ -26,6 +26,7 @@ conda create -n “xai-resunet-env” python=3.10.12
 pip install torchvision==0.15.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
+Download RadImageNet pretrained ResNet-50 model from here: https://github.com/BMEII-AI/RadImageNet?tab=readme-ov-file <br>
 Torch version: 2.0.0+cu117 <br>
 TorchVision version: 0.15.0+cu117
 
