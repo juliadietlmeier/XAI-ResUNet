@@ -19,9 +19,31 @@ Qualitative results so far: <br>
 
 Sample qualitative results including EigenGradCAM localization heatmaps overlaid on the original images where red indicates higher pixel importance and ground truth lesion contours are shown in black. 
 
- 
-
 ## Setup
+
+```
+conda create -n “xai-resunet-env” python=3.10.12
+pip install -r requirements.txt
+```
+
+## Preprocess the dataset
+
+- **XAI-ResUnet/**: Root directory of the project
+  - **data/**: Contains all the data related to the project
+    - **original_data/**: Folder for the original dataset
+      - **Training/**: Extract the MSSEG-2016 Training.zip here
+      - **Testing/**: Extract the MSSEG-2016 Testing.zip here    
+
+``` 
+python preprocess.py
+``` 
+
+## Run XAIResUnet Experiments
+```
+python main.py --model "XAIResUnet_Imagenet" --epoch "100" <br>
+python main.py --model "XAIResUnet_Radimagenet" --epoch "100" <br>
+python main.py --model "XAIResUnet_Vanilla" --epoch "100" <br>
+``` 
 
 ## Contact
 Please feel free to raise an issue or contact me at vayangi.ganepola2@mail.dcu.ie with any queries or for discussions.
