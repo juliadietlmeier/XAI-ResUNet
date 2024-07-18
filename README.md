@@ -26,7 +26,7 @@ conda create -n “xai-resunet-env” python=3.10.12
 pip install torchvision==0.15.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
-Torch version: 2.0.0+cu117
+Torch version: 2.0.0+cu117 <br>
 TorchVision version: 0.15.0+cu117
 
 ## Preprocess the dataset
@@ -43,9 +43,9 @@ python preprocess.py
 
 ## Run XAIResUnet Experiments
 ```
-python main.py --model "XAIResUnet_Imagenet" --epoch "100" <br>
-python main.py --model "XAIResUnet_Radimagenet" --epoch "100" <br>
-python main.py --model "XAIResUnet_Vanilla" --epoch "100" <br>
+python main.py --model "XAIResUnet_Imagenet" --epoch "100"
+python main.py --model "XAIResUnet_Radimagenet" --epoch "100" 
+python main.py --model "XAIResUnet_Vanilla" --epoch "100"
 ``` 
 
 ## Contact
