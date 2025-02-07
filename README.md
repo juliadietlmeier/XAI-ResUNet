@@ -54,4 +54,4 @@ Please feel free to raise an issue or contact me at vayangi.ganepola2@mail.dcu.i
 
 ## Acknowledgement
 
-Vayangi Ganepola, Prateek Mathur, Oluwabukola Adegboro, Julia Dietlmeier, Aonghus Lawlor, Noel E. O'Connor, Claudia Mazo. "XAI-ResUNet: Analysing the Impact of Pre-training in ResUNet Architectures for Multiple Sclerosis Lesion Segmentation using EigenGradCAM". 26th Irish Machine Vision and Image Processing Conference, University of Limerick, Ireland. August 21st, 2024 - August 23rd, 2024.
+Vayangi Ganepola, Prateek Mathur, Oluwabukola Adegboro, Julia Dietlmeier, Aonghus Lawlor, Noel E. O'Connor, Claudia Mazo. **"XAI-ResUNet: Analysing the Impact of Pre-training in ResUNet Architectures for Multiple Sclerosis Lesion Segmentation using EigenGradCAM"**. 26th Irish Machine Vision and Image Processing Conference, University of Limerick, Ireland. August 21st, 2024 - August 23rd, 2024.
